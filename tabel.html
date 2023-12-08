@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        color: rebeccapurple;
+      }
+      #sample {
+        color: rgb(146, 3, 151);
+        font-size: larger;
+      }
+      .container {
+        border: 1px solid rgb(91, 89, 17);
+        display: grid;
+        flex-direction: row;
+        row-gap: 10px;
+        column-gap: 10px;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
+      }
+      table {
+        text-align: center;
+        background-color: aqua;
+      }
+      .navbar {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: space-between;
+      }
+      ul {
+        list-style: none;
+      }
+      .one,
+      .two,
+      .three,
+      .four,
+      .five {
+        border: 1px solid aqua;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <h3>Table details</h3>
+      </thead>
+      <tbody>
+        <tr>
+          <th>RegNo</th>
+          <th>Name</th>
+          <th>Class</th>
+        </tr>
+        <tr>
+          <td>32</td>
+          <td>Dhrshini.N</td>
+          <td>CSE A</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>Devadhrshini.S</td>
+          <td>CSE A</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+    <p id="sample">ID selector</p>
+    <div class="containe">
+      <h4>Simantic tags</h4>
+      <header>Header</header>
+      <nav>Navbar</nav>
+      <section>Section tag</section>
+      <aside>Aside tag</aside>
+      <footer>Footer</footer>
+    </div>
+    <div class="navbar">
+      <ul>
+        <li>Explore</li>
+        <li>News</li>
+        <li>Entertainment</li>
+        <li>Music</li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="one">one</div>
+      <div class="two">two</div>
+      <div class="three">three</div>
+      <div class="four">four</div>
+      <div class="five">five</div>
+    </div>
+  </body>
+</html>
